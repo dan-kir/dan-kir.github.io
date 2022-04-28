@@ -1,2 +1,3 @@
 # dan-kir.github.io
-My Blog
+
+My WIP Blog

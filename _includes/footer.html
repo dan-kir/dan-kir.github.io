@@ -1,0 +1,59 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-1">
+        <img src="{{ site.url }}/imgs/global/piotr_migdal_2016_london_300sq.jpg" alt="Piotr Migdał - as of 2013"
+          width="150px" height="150px" />
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="contact-list">
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="{{ site.url }}">{{ site.url }}</a></li>
+        </ul>
+        <ul class="social-media-list">
+          <li>
+            {% include icon-github.html username=site.usernames.github %}
+          </li>
+          <li>
+            {% include icon-twitter.html username=site.usernames.twitter %}
+          </li>
+          <li>
+            <a href="https://pinboard.in/u:{{ site.usernames.pinboard }}/">
+              <span class="icon icon--pinboard">{% include icon-pinboard.svg %}</span>
+            </a>
+            <a href="https://linkedin.com/in/{{ site.usernames.linkedin }}">
+              <span class="fa fa-linkedin-square" style="color:#828282"></span>
+            </a>
+            <a href="https://stackexchange.com/users/{{ site.usernames.stackexchange }}">
+              <span class="fa fa-stack-overflow" style="color:#828282"></span>
+            </a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/sponsors/stared" data-icon="octicon-heart"
+              aria-label="Sponsor @stared on GitHub">Sponsor me at GitHub</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Piotr Migdał - founder of <a href="https://quantumflytrap.com">Quantum Flytrap</a> with Klem Jankiewicz.
+          Previously: an independent data science consultant.
+          PhD in quantum physics. Based in Warsaw, Poland.
+          Believing in <a href="http://crastina.se/theres-no-projects-like-side-projects/">side projects</a>, active in
+          <a href="https://warsztatywww.pl/article/en-indie-camp-for-hs-geeks/">gifted education</a>, writing and
+          developing open source projects.
+
+        <p>Python for data science, TypeScript for interfaces, Rust for performance.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</footer>

@@ -9,7 +9,7 @@
 title: Dan Kir
 phone: "+447514433198"
 publickey: "https://raw.githubusercontent.com/dan-kir/pgp-public-key/main/dan-kir.asc"
-longid: "0xC73FF8CA9EE81E9F"
+shortid: "0x9EE81E9F"
 description: > # this means to ignore newlines until "baseurl:"
   Whoami
 baseurl: "" # the subpath of your site, e.g. /blog

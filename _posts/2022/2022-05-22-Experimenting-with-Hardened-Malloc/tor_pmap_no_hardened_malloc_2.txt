@@ -1,0 +1,125 @@
+21196:   tor -f /etc/tor/torrc
+000056054bc90000    384K r---- tor
+000056054bcf0000   1892K r-x-- tor
+000056054bec9000    888K r---- tor
+000056054bfa7000     56K r---- tor
+000056054bfb5000     48K rw--- tor
+000056054bfc1000     24K rw---   [ anon ]
+000056054de45000  19972K rw---   [ anon ]
+00007ff1ae7d5000   9624K r---- cached-microdescs
+00007ff1af396000   2052K rw---   [ anon ]
+00007ff1af77b000     12K r---- libgcc_s.so.1
+00007ff1af77e000     68K r-x-- libgcc_s.so.1
+00007ff1af78f000     16K r---- libgcc_s.so.1
+00007ff1af793000      4K r---- libgcc_s.so.1
+00007ff1af794000      4K rw--- libgcc_s.so.1
+00007ff1af795000     16K rw---   [ anon ]
+00007ff1af799000     16K r---- libgpg-error.so.0.29.0
+00007ff1af79d000     84K r-x-- libgpg-error.so.0.29.0
+00007ff1af7b2000     40K r---- libgpg-error.so.0.29.0
+00007ff1af7bc000      4K ----- libgpg-error.so.0.29.0
+00007ff1af7bd000      4K r---- libgpg-error.so.0.29.0
+00007ff1af7be000      4K rw--- libgpg-error.so.0.29.0
+00007ff1af7bf000     48K r---- libgcrypt.so.20.2.8
+00007ff1af7cb000    832K r-x-- libgcrypt.so.20.2.8
+00007ff1af89b000    244K r---- libgcrypt.so.20.2.8
+00007ff1af8d8000      8K r---- libgcrypt.so.20.2.8
+00007ff1af8da000     20K rw--- libgcrypt.so.20.2.8
+00007ff1af8df000     12K r---- liblz4.so.1.9.3
+00007ff1af8e2000    108K r-x-- liblz4.so.1.9.3
+00007ff1af8fd000     12K r---- liblz4.so.1.9.3
+00007ff1af900000      4K r---- liblz4.so.1.9.3
+00007ff1af901000      4K rw--- liblz4.so.1.9.3
+00007ff1af902000     12K r---- librt-2.31.so
+00007ff1af905000     16K r-x-- librt-2.31.so
+00007ff1af909000      4K r---- librt-2.31.so
+00007ff1af90a000      4K ----- librt-2.31.so
+00007ff1af90b000      4K r---- librt-2.31.so
+00007ff1af90c000      4K rw--- librt-2.31.so
+00007ff1af90d000      4K r---- libdl-2.31.so
+00007ff1af90e000      8K r-x-- libdl-2.31.so
+00007ff1af910000      4K r---- libdl-2.31.so
+00007ff1af911000      4K r---- libdl-2.31.so
+00007ff1af912000      4K rw--- libdl-2.31.so
+00007ff1af913000      8K rw---   [ anon ]
+00007ff1af915000    148K r---- libc-2.31.so
+00007ff1af93a000   1324K r-x-- libc-2.31.so
+00007ff1afa85000    296K r---- libc-2.31.so
+00007ff1afacf000      4K ----- libc-2.31.so
+00007ff1afad0000     12K r---- libc-2.31.so
+00007ff1afad3000     12K rw--- libc-2.31.so
+00007ff1afad6000     16K rw---   [ anon ]
+00007ff1afada000     28K r---- libpthread-2.31.so
+00007ff1afae1000     64K r-x-- libpthread-2.31.so
+00007ff1afaf1000     20K r---- libpthread-2.31.so
+00007ff1afaf6000      4K r---- libpthread-2.31.so
+00007ff1afaf7000      4K rw--- libpthread-2.31.so
+00007ff1afaf8000     16K rw---   [ anon ]
+00007ff1afafc000     12K r---- libcap.so.2.44
+00007ff1afaff000     16K r-x-- libcap.so.2.44
+00007ff1afb03000      8K r---- libcap.so.2.44
+00007ff1afb05000      4K r---- libcap.so.2.44
+00007ff1afb06000      4K rw--- libcap.so.2.44
+00007ff1afb07000      8K r---- libseccomp.so.2.5.1
+00007ff1afb09000     64K r-x-- libseccomp.so.2.5.1
+00007ff1afb19000     60K r---- libseccomp.so.2.5.1
+00007ff1afb28000      4K r---- libseccomp.so.2.5.1
+00007ff1afb29000      4K rw--- libseccomp.so.2.5.1
+00007ff1afb2a000     44K r---- libzstd.so.1.4.8
+00007ff1afb35000    748K r-x-- libzstd.so.1.4.8
+00007ff1afbf0000     72K r---- libzstd.so.1.4.8
+00007ff1afc02000      4K ----- libzstd.so.1.4.8
+00007ff1afc03000      4K r---- libzstd.so.1.4.8
+00007ff1afc04000      4K rw--- libzstd.so.1.4.8
+00007ff1afc05000     12K r---- liblzma.so.5.2.5
+00007ff1afc08000     96K r-x-- liblzma.so.5.2.5
+00007ff1afc20000     44K r---- liblzma.so.5.2.5
+00007ff1afc2b000      4K r---- liblzma.so.5.2.5
+00007ff1afc2c000      4K rw--- liblzma.so.5.2.5
+00007ff1afc2d000      8K rw---   [ anon ]
+00007ff1afc2f000     72K r---- libsystemd.so.0.30.0
+00007ff1afc41000    480K r-x-- libsystemd.so.0.30.0
+00007ff1afcb9000    148K r---- libsystemd.so.0.30.0
+00007ff1afcde000     16K r---- libsystemd.so.0.30.0
+00007ff1afce2000      4K rw--- libsystemd.so.0.30.0
+00007ff1afce3000      4K rw---   [ anon ]
+00007ff1afce4000    536K r---- libcrypto.so.1.1
+00007ff1afd6a000   1692K r-x-- libcrypto.so.1.1
+00007ff1aff11000    580K r---- libcrypto.so.1.1
+00007ff1affa2000    192K r---- libcrypto.so.1.1
+00007ff1affd2000      8K rw--- libcrypto.so.1.1
+00007ff1affd4000     16K rw---   [ anon ]
+00007ff1affd8000    116K r---- libssl.so.1.1
+00007ff1afff5000    312K r-x-- libssl.so.1.1
+00007ff1b0043000    104K r---- libssl.so.1.1
+00007ff1b005d000      4K ----- libssl.so.1.1
+00007ff1b005e000     36K r---- libssl.so.1.1
+00007ff1b0067000     16K rw--- libssl.so.1.1
+00007ff1b006b000     56K r---- libevent-2.1.so.7.0.1
+00007ff1b0079000    208K r-x-- libevent-2.1.so.7.0.1
+00007ff1b00ad000     80K r---- libevent-2.1.so.7.0.1
+00007ff1b00c1000      8K r---- libevent-2.1.so.7.0.1
+00007ff1b00c3000      4K rw--- libevent-2.1.so.7.0.1
+00007ff1b00c4000     60K r---- libm-2.31.so
+00007ff1b00d3000    616K r-x-- libm-2.31.so
+00007ff1b016d000    612K r---- libm-2.31.so
+00007ff1b0206000      4K r---- libm-2.31.so
+00007ff1b0207000      4K rw--- libm-2.31.so
+00007ff1b0208000     12K r---- libz.so.1.2.11
+00007ff1b020b000     68K r-x-- libz.so.1.2.11
+00007ff1b021c000     24K r---- libz.so.1.2.11
+00007ff1b0222000      4K ----- libz.so.1.2.11
+00007ff1b0223000      4K r---- libz.so.1.2.11
+00007ff1b0224000      4K rw--- libz.so.1.2.11
+00007ff1b0225000      8K rw---   [ anon ]
+00007ff1b0235000      4K r---- ld-2.31.so
+00007ff1b0236000    128K r-x-- ld-2.31.so
+00007ff1b0256000     32K r---- ld-2.31.so
+00007ff1b025e000      4K rw---   [ anon ]
+00007ff1b025f000      4K r---- ld-2.31.so
+00007ff1b0260000      4K rw--- ld-2.31.so
+00007ff1b0261000      4K rw---   [ anon ]
+00007ffe93b4b000    132K rw---   [ stack ]
+00007ffe93baf000     16K r----   [ anon ]
+00007ffe93bb3000      8K r-x--   [ anon ]
+ total            46204K

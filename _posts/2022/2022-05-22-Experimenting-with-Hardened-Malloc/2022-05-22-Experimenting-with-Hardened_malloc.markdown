@@ -6,7 +6,8 @@ author: Dan Kir
 tags:   
   - security
   - linux
-
+permalink: /blog/experimenting-with-hardened-malloc
+description: "Experimenting with Hardened Malloc"
 ---
 
 ## Experimenting with Hardened Malloc

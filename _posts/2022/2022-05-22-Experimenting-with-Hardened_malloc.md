@@ -72,7 +72,7 @@ int main()
 
 #### Test 1 - randomize_va_space=0 + no hardened_malloc
 
-###### Results:
+##### Results:
 Addresses are all the same each time the program runs.
 
 ```bash
@@ -108,7 +108,7 @@ dan@debian:~$ ldd /usr/bin/vi | head -n 3
 
 #### Test 2 - randomize_va_space=1 + no hardened_malloc
 
-###### Results:
+##### Results:
 Addresses for the stack and shared libraries have been randomized between runs. Other addresses remain unchanged.
 
 ```bash
@@ -144,7 +144,7 @@ dan@debian:~$ ldd /usr/bin/vi | head -n 3
 
 #### Test 3 - randomize_va_space=2 + no PIE + no hardened_malloc
 
-###### Results:
+##### Results:
 The executable and Procedure Linkage Table (PLT) addresses are consistent between runs.
 
 ```bash
@@ -180,7 +180,7 @@ dan@debian:~$ ldd /usr/bin/vi | head -n 3
 
 #### Test 4 - randomize_va_space=2 + fPIE + no hardened_malloc
 
-###### Results:
+##### Results:
 All addresses have been randomized
 
 No guards or padding in heap.
@@ -224,7 +224,7 @@ dan@debian:~$ sudo pmap 18276 | tail -n 1
 
 #### Test 5 - randomize_va_space=2 + hardened_malloc (default)
 
-###### Results:
+##### Results:
 The executable and PLT addresses are the same
 
 Guards, padding and additional randomization in heap.
@@ -252,7 +252,7 @@ system: 0x7f96fc76be50
 
 #### Test 6 - randomize_va_space=2 + fPIE + hardened_malloc (default)
 
-###### Results:
+##### Results:
 All addresses randomized
 
 Guards, padding and additional randomization in heap.

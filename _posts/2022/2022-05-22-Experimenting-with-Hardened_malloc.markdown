@@ -10,6 +10,7 @@ permalink: /blog/experimenting-with-hardened-malloc
 description: "Experimenting with Hardened Malloc"
 image: /imgs/2020-03-02-types-tests-typescript/jest_test_repl.png
 ---
+test
 
 ## Experimenting with Hardened Malloc
 

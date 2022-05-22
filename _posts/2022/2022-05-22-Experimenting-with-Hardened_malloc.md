@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Experimenting with Hardened_malloc"
+title:  "Experimenting with Hardened Malloc"
 date:   '2022-05-22'
 author: Dan Kir
 tags:   
@@ -8,11 +8,7 @@ tags:
   - linux
 description: >-
   Experimenting with Hardened Malloc
-image: /imgs/2020-03-02-types-tests-typescript/jest_test_repl.png
 ---
-test
-
-## Experimenting with Hardened Malloc
 
 #### What is Hardened Malloc?
 

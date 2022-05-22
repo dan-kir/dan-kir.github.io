@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Experimenting with Hardened_malloc"
-date:   2022-05-22 12:00:00 +0000
+date:   '2022-05-22'
 author: Dan Kir
 tags:   
   - security
   - linux
-permalink: /blog/experimenting-with-hardened-malloc
-description: "Experimenting with Hardened Malloc"
+description: >-
+  Experimenting with Hardened Malloc
 image: /imgs/2020-03-02-types-tests-typescript/jest_test_repl.png
 ---
 test

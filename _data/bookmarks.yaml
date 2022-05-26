@@ -1,0 +1,4 @@
+- title:  Silver
+  desc:   "Scan IPs for open ports+vulnerabilites in bulk"
+  href:   https://github.com/s0md3v/Silver
+  tags:   [startup, quantum]

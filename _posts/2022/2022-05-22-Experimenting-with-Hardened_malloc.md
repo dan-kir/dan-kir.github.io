@@ -72,7 +72,7 @@ int main()
 
 #### Test 1 - randomize_va_space=0 + no hardened_malloc
 
-##### Results:
+#### Results:
 Addresses are all the same each time the program runs.
 
 ```bash
@@ -108,7 +108,7 @@ dan@debian:~$ ldd /usr/bin/vi | head -n 3
 
 #### Test 2 - randomize_va_space=1 + no hardened_malloc
 
-##### Results:
+#### Results:
 Addresses for the stack and shared libraries have been randomized between runs. Other addresses remain unchanged.
 
 ```bash
@@ -144,7 +144,7 @@ dan@debian:~$ ldd /usr/bin/vi | head -n 3
 
 #### Test 3 - randomize_va_space=2 + no PIE + no hardened_malloc
 
-##### Results:
+#### Results:
 The executable and Procedure Linkage Table (PLT) addresses are consistent between runs.
 
 ```bash
@@ -180,12 +180,12 @@ dan@debian:~$ ldd /usr/bin/vi | head -n 3
 
 #### Test 4 - randomize_va_space=2 + fPIE + no hardened_malloc
 
-##### Results:
+#### Results:
 All addresses have been randomized
 
 No guards or padding in heap.
 
-Full TOR process memory maps {link here}
+[Full TOR process memory map](https://raw.githubusercontent.com/dan-kir/dan-kir.github.io/main/_data/2022-05-22-Experimenting-with-Hardened_malloc/tor_pmap_no_hardened_malloc_1.txt 'Full TOR process memory map')
 
 ```bash
 dan@debian:~$ cat /proc/sys/kernel/randomize_va_space
@@ -224,7 +224,7 @@ dan@debian:~$ sudo pmap 18276 | tail -n 1
 
 #### Test 5 - randomize_va_space=2 + hardened_malloc (default)
 
-##### Results:
+#### Results:
 The executable and PLT addresses are the same
 
 Guards, padding and additional randomization in heap.
@@ -252,14 +252,14 @@ system: 0x7f96fc76be50
 
 #### Test 6 - randomize_va_space=2 + fPIE + hardened_malloc (default)
 
-##### Results:
+#### Results:
 All addresses randomized
 
 Guards, padding and additional randomization in heap.
 
 Significant increase in memory usage.
 
-Full TOR process memory map {link here}
+[Full TOR process memory map](https://raw.githubusercontent.com/dan-kir/dan-kir.github.io/main/_data/2022-05-22-Experimenting-with-Hardened_malloc/tor_pmap_hm_enabled_1.txt 'Full TOR process memory map')
 
 ```bash
 dan@debian:~$ cat /proc/sys/kernel/randomize_va_space
@@ -287,7 +287,7 @@ dan@debian:~$ sudo pmap 21274 | tail -n 1
 ```
 
 #### References
-- https://github.com/GrapheneOS/hardened_malloc
-- https://www.proggen.org/doku.php?id=security:memory-corruption:protection:aslr
-- https://www.kicksecure.com/wiki/Hardened_Malloc
-- https://www.whonix.org/wiki/Packages_for_Debian_Hosts
+- [https://github.com/GrapheneOS/hardened_malloc](https://github.com/GrapheneOS/hardened_malloc 'https://github.com/GrapheneOS/hardened_malloc')
+- [https://www.proggen.org/doku.php?id=security:memory-corruption:protection:aslr](https://www.proggen.org/doku.php?id=security:memory-corruption:protection:aslr 'https://www.proggen.org/doku.php?id=security:memory-corruption:protection:aslr')
+- [https://www.kicksecure.com/wiki/Hardened_Malloc](https://www.kicksecure.com/wiki/Hardened_Malloc 'https://www.kicksecure.com/wiki/Hardened_Malloc')
+- [https://www.whonix.org/wiki/Packages_for_Debian_Hosts](https://www.whonix.org/wiki/Packages_for_Debian_Hosts 'https://www.whonix.org/wiki/Packages_for_Debian_Hosts')

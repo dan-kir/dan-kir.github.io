@@ -1,0 +1,25 @@
+---
+layout: page
+title: Bookmarks
+permalink: /bookmarks/
+order: 1
+---
+
+<div class="home">
+
+  <p>Useful bookmarks related to security.
+
+  <ul class="event-list">
+    {% for bookmark in site.data.bookmarks %}
+    <li>
+      <a href="{{ bookmark.href }}">{{ bookmark.title }}</a>
+      <span class="post-meta">
+        {{ bookmark.tags}}
+      </span>
+      </br>
+      {{ bookmark.desc }}
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>

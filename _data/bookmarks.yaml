@@ -1,4 +1,9 @@
-- title:  Silver
-  desc:   "Scan IPs for open ports+vulnerabilites in bulk"
-  href:   https://github.com/s0md3v/Silver
-  tags:   [startup, quantum]
+- title:  Madaidans Insecurities
+  desc:   "Security and privacy evaluations"
+  href:   https://madaidans-insecurities.github.io/
+  tags:   [security, privacy, linux, android, web]
+
+- title:  Privacy Guides
+  desc:   "The guide to restoring your online privacy"
+  href:   https://www.privacyguides.org/
+  tags:   [privacy]

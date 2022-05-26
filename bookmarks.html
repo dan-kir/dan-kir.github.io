@@ -14,7 +14,9 @@ order: 1
     <li>
       <a href="{{ bookmark.href }}">{{ bookmark.title }}</a>
       <span class="post-meta">
-        {{ bookmark.tags}}
+        {% for tag in bookmark.tags %}
+        <span>[{{ tag }}]</span>
+        {% endfor %}
       </span>
       </br>
       {{ bookmark.desc }}

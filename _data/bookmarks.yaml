@@ -1,9 +1,39 @@
 - title:  Madaidans Insecurities
   desc:   "Security and privacy evaluations"
   href:   https://madaidans-insecurities.github.io/
-  tags:   [security, privacy, linux, android, web]
+  tags:   [security, linux, android, web]
 
 - title:  Privacy Guides
   desc:   "The guide to restoring your online privacy"
   href:   https://www.privacyguides.org/
   tags:   [privacy]
+
+- title:  Bitcoin Guides
+  desc:   "A collection of Bitcoin resources"
+  href:   https://bitcoiner.guide/
+  tags:   [bitcoin, privacy, opsec]
+
+- title:  Ten Immutable Laws Of Security
+  desc:   "Microsofts collected non-technical wisdom on security"
+  href:   https://docs.microsoft.com/en-us/archive/blogs/rhalbheer/ten-immutable-laws-of-security-version-2-0
+  tags:   [security, windows]
+
+- title:  Yubikey Guide
+  desc:   "A guide to using YubiKey as a SmartCard for storing GPG encryption, signing and authentication keys."
+  href:   https://github.com/drduh/YubiKey-Guide
+  tags:   [security, privacy]
+
+- title:  Operational PGP
+  desc:   "A guide on how to email securely."
+  href:   https://gist.github.com/grugq/03167bed45e774551155
+  tags:   [security, privacy]
+
+- title:  So, you want to be a darknet drug lord
+  desc:   "So, you want to be a darknet drug lord"
+  href:   https://pastebin.com/GrV3uYh5
+  tags:   [opsec, privacy, tor]
+
+- title:  Cover Your Tracks
+  desc:   "See how trackers view your browser"
+  href:   https://coveryourtracks.eff.org/
+  tags:   [web, privacy]

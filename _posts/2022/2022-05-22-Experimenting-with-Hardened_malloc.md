@@ -20,6 +20,8 @@ Below are some tests that demonstrate some of its capabilities and the additiona
 
 For how to compile/install the Hardened Malloc library see the references below.
 
+Or, check out my Ansible role for hardening Debian based systems - [https://github.com/dan-kir/ansible-debian-11-hardening](https://github.com/dan-kir/ansible-debian-11-hardening 'https://github.com/dan-kir/ansible-debian-11-hardening')
+
 
 #### Testing environment
 

@@ -14,7 +14,7 @@ Windows based VM for CTFs and ad hoc security testing and development
 
 Base OS is Windows 10 Professional N
 
-The OVF and disk are 24 GB. These can be made available on request.
+Can make this VM available on request. The OVF and disk are 24 GB.
 
 #### Folder for dangerous binaries
 1. Create Malware folder at C:\malware

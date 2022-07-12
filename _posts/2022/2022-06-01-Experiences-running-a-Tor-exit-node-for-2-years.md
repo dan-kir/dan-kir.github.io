@@ -128,9 +128,14 @@ Nyx ([https://nyx.torproject.org](https://nyx.torproject.org)) is a command-line
 
 #### Tor swag
 
-If you run a fast relay, or have contributed to the project in some other way, you might be eligible for a Tor T-Shirt - ([https://community.torproject.org/relay/community-resources/swag](https://community.torproject.org/relay/community-resources/swag))
+If you run a fast enough relay, or have contributed to the project in some other way, you might be eligible for a Tor t-shirt - ([https://community.torproject.org/relay/community-resources/swag](https://community.torproject.org/relay/community-resources/swag))
 
-I am still waiting for mine. Will share an update when there is one.
+I sent an email to tshirt@torproject.org and included my relays fingerprint. Kat quickly responded and asked if I could configure a unique string in the relays 'Contact' field to prove ownership. One month later I received an awesome t-shirt and sticker pack.
+
+| ![Tor swag](/imgs/2022-06-01-Experiences-running-a-Tor-exit-node-for-2-years/tor-swag.jpg "Tor swag") |
+|:--:|
+|Tor swag pack|
+
 
 #### Summary
 

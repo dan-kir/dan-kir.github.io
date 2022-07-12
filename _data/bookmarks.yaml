@@ -3,6 +3,11 @@
   href:   https://madaidans-insecurities.github.io/
   tags:   [security, linux, android, web]
 
+- title:  The Hitchhiker's Guide to Online Anonymity
+  desc:   "Introduction to various online tracking techniques, online ID verification techniques, and detailed guidance to creating and maintaining (truly) anonymous online identities"
+  href:   https://anonymousplanet-ng.org/
+  tags:   [anonymity, privacy, security]
+
 - title:  Privacy Guides
   desc:   "The guide to restoring your online privacy"
   href:   https://www.privacyguides.org/

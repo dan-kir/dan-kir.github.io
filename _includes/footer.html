@@ -24,6 +24,80 @@
       <div class="footer-col footer-col-3">
         <p>Dan Kir - Don't trust. Verify.</p>
 
+        <script type="text/javascript">
+          var userip;
+        </script>
+
+        <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+        <strong>
+        <script type="text/javascript">
+          document.write("", userip);
+        </script>
+        </strong>
+
+        <p>Browser fingerprint<br /><strong id="browserFingerprint"></strong></p>
+        <p>Device fingerprint<br /><strong id="deviceFingerprint"></strong></p>
+
+        <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+        <script type="text/javascript" src="dist/imprint.min.js"></script>
+
+        <script type="text/javascript">
+
+          var browserTests = [
+              "audio",
+              "availableScreenResolution",
+              "canvas",
+              "colorDepth",
+              "cookies",
+              "cpuClass",
+              "deviceDpi",
+              "doNotTrack",
+              "indexedDb",
+              "installedFonts",
+              "language",
+              "localIp",
+              "localStorage",
+              "pixelRatio",
+              "platform",
+              "plugins",
+              "processorCores",
+              "screenResolution",
+              "sessionStorage",
+              "timezoneOffset",
+              "touchSupport",
+              "userAgent",
+              "webGl"
+            ];
+
+          console.time('getImprint 1');
+          imprint.test(browserTests).then(function(result){
+            console.timeEnd('getImprint 1');
+            document.getElementById("browserFingerprint").innerHTML = result;
+          });
+
+          var deviceTests = [
+              "audio",
+              "colorDepth",
+              "cpuClass",
+              "deviceDpi",
+              "localIp",
+              "platform",
+              "installedFonts",
+              "processorCores",
+              "publicIp",
+              "screenResolution",
+              "timezoneOffset"
+            ];
+
+          console.time('getImprint 2');
+          imprint.test(deviceTests).then(function(result){
+            console.timeEnd('getImprint 2');
+            document.getElementById("deviceFingerprint").innerHTML = result;
+          });
+
+        </script>
+
       </div>
 
     </div>

@@ -43,6 +43,7 @@ password: Password1
 - CCleaner
 - Cyberchef
 - Deep Sound
+- Detect-it-Easy (DIE)
 - dnSpyEx
 - Firefox
 - FTK Imager
@@ -70,6 +71,7 @@ password: Password1
 - Recuva
 - Redline Fireeye
 - Regshot
+- SQLlitebrowser
 - Sysinternals Suite
 - Tor Browser
 - UPX
